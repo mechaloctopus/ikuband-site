@@ -178,11 +178,12 @@ export default function EcosystemSection() {
         {/* Sleep apnea feature highlight */}
         <div className="bg-card-bg border border-card-border rounded-2xl overflow-hidden">
           <div className="grid lg:grid-cols-2 gap-0">
-            <div className="relative h-64 lg:h-auto">
+            <div className="relative h-64 lg:h-auto min-h-[16rem]">
               <Image
                 src="/images/ring-sleep-alert.webp"
                 alt="Sleep apnea alert system"
                 fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-transparent to-card-bg/90 hidden lg:block" />

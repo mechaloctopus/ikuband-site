@@ -152,6 +152,7 @@ export default function MLSection() {
                 src="/images/big-data-neural.jpg"
                 alt="Neural network data processing"
                 fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-card-bg to-transparent" />

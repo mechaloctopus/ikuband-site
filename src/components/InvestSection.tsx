@@ -162,6 +162,7 @@ export default function InvestSection() {
               src="/images/ring-banner-sport.jpg"
               alt="Ring lifestyle"
               fill
+              sizes="100vw"
               className="object-cover opacity-20"
             />
           </div>

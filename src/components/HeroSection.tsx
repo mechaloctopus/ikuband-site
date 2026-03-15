@@ -74,6 +74,7 @@ export default function HeroSection() {
                   src="/images/ring-futuristic-cyan.jpg"
                   alt="IkuBand Smart Ring Concept"
                   fill
+                  sizes="(max-width: 640px) 320px, 384px"
                   className="object-cover"
                   priority
                 />

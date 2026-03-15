@@ -109,6 +109,7 @@ export default function MissionSection() {
             src="/images/body-scan-hud.jpg"
             alt="Full body diagnostic HUD visualization"
             fill
+            sizes="100vw"
             className="object-cover opacity-60"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent" />

@@ -165,11 +165,12 @@ export default function ScienceSection() {
             >
               <div className="grid lg:grid-cols-3 gap-0">
                 {/* Image */}
-                <div className="relative h-64 lg:h-auto">
+                <div className="relative h-64 lg:h-auto min-h-[16rem]">
                   <Image
                     src={tech.image}
                     alt={tech.title}
                     fill
+                    sizes="(max-width: 1024px) 100vw, 33vw"
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent to-card-bg/80 hidden lg:block" />
