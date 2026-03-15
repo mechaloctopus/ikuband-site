@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/BaseImage";
 
 export default function InvestSection() {
   return (

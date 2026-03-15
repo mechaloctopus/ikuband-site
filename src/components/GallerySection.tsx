@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/BaseImage";
 
 const rings = [
   { src: "/images/ring-futuristic-cyan.jpg", title: "Concept: OLED Display Ring", desc: "Futuristic smart ring with integrated micro-display and ambient glow indicators" },
