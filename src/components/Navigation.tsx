@@ -8,6 +8,7 @@ const navLinks = [
   { href: "#science", label: "Science" },
   { href: "#gallery", label: "Ring Gallery" },
   { href: "#biomarkers", label: "Biomarkers" },
+  { href: "#vitality", label: "Blood OS" },
   { href: "#ml", label: "AI & ML" },
   { href: "#ecosystem", label: "Ecosystem" },
   { href: "#manufacturing", label: "Manufacturing" },

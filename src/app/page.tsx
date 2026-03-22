@@ -5,6 +5,7 @@ import ComparisonSection from "@/components/ComparisonSection";
 import ScienceSection from "@/components/ScienceSection";
 import GallerySection from "@/components/GallerySection";
 import BiomarkersSection from "@/components/BiomarkersSection";
+import BloodVitalitySection from "@/components/BloodVitalitySection";
 import MLSection from "@/components/MLSection";
 import EcosystemSection from "@/components/EcosystemSection";
 import ManufacturingSection from "@/components/ManufacturingSection";
@@ -23,6 +24,7 @@ export default function Home() {
         <ScienceSection />
         <GallerySection />
         <BiomarkersSection />
+        <BloodVitalitySection />
         <MLSection />
         <EcosystemSection />
         <ManufacturingSection />
